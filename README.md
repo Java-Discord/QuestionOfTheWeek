@@ -11,7 +11,7 @@ QOTW, or Question of the week, is a weekly java-related question you can answer 
  - [Week 22 (28.03.2021 - 04.04.2021))](#week22)
 
 <a name="week21"></a>
-### Week 21 (21.03.2021 - 28.03.2021)
+### Week 21 (21.03.2021 - 28.03.2021) | What are the advantages of multithreading?
 
  - Submission by dan1st#7327
 
@@ -30,6 +30,6 @@ Multithreading allows making use of simultaneous calculations and operations. Wh
 Multithre_ding_ allows us to run numerous task simultaneously, which is extra useful when you need several tasks running at the same time, or when you are doing some blocking operations. However it is good to keep in mind that working with multiple threads can lead to some unexpected behavior, mainly if the threads are accessing the same resources. Multithreading is also used in brute-force algorithms to check all the cases in a shorter time, making them much more powerful.
 
 <a name="week22"></a>
-### Week 22 (28.03.2021 - 04.04.2021)
+### Week 22 (28.03.2021 - 04.04.2021) | What are the main differences between Array and Collection?
 
 -Answers still open-
