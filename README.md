@@ -3,7 +3,7 @@
 Questions and answers of all QOTW starting 28.03.2021
 
 ## What is QOTW?
-QOTW, or Question of the week, is a weekly java-related question you can answer and be awarded points for. Check it out in #question-of-the-week on the [Java Discord](javadiscord.net).
+QOTW, or Question of the week, is a weekly java-related question you can answer and be awarded points for. Check it out in `#question-of-the-week` on the [Java Discord](javadiscord.net).
 
 ## Questions/Answers
 
