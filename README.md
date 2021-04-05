@@ -9,6 +9,7 @@ QOTW, or Question of the week, is a weekly java-related question you can answer 
 
  - [Week 21 (21.03.2021 - 28.03.2021)](#week21)  
  - [Week 22 (28.03.2021 - 04.04.2021)](#week22)
+ - [Week 23 (05.04.2021 - 11.04.2021)](#week23)
 
 <a name="week21"></a>
 ### Week 21 (21.03.2021 - 28.03.2021) | What are the advantages of multithreading?
@@ -32,4 +33,32 @@ Multithre_ding_ allows us to run numerous task simultaneously, which is extra us
 <a name="week22"></a>
 ### Week 22 (28.03.2021 - 04.04.2021) | What are the main differences between Array and Collection?
 
--Answers still open-
+ - Submission by dan1st#7327
+
+[Arrays are a language feature that allows to store multiple elements of the same type (any type is allowed) in memory. Arrays have a fixed length.](https://docs.oracle.com/javase/specs/jls/se15/html/jls-10.html)
+[`Collection`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Collection.html) is an general purpose interface for data structures. It is part of the standard library and not part of the language itself. It is also not possible to just create a collection but only to create instances of concrete implementations of `Collection`.
+
+An example of a Collection is ArrayList. ArrayList is a concrete List (special form of s collection) that uses arrays internally. ArrayList starts with no elements (by default) and allows to add elements at any point (the internal array id recreared when needed). While there is only a single array implementation, there a many different Collections for different purposes. Most of them have a variable length, some have a fixed/maximum length.
+
+ - Submission by Spider EveryOS#8098
+
+An array is a fixed-length data type which allows you to hold many objects.
+A collection is a class that can be either fixed-length or variable-length. It also holds objects, but does so in a different way depending on the type of collection. For example, maps have both an index key and a value.
+The syntactic method of accessing the two is different. Arrays can be indexed with the `[i]` syntax, while Collections are often indexed with getters, setters, and other auxiliary methods.
+
+ - Submission by Andrew.#3939
+
+Arrays are a fixed-size, contiguous block of memory that is allocated for storing primitives or objects, whereas the Java Collections Framework is a layer of abstraction that provides programmers with a set of pre-implemented data structures, some of which use arrays as their internal data storage medium. Arrays have a special bracket-syntax for accessing and setting the value of variables at specific points in the array, using integer indexes starting from zero and going to the size of the array - 1, whereas collections offer methods for data access instead. Generally, collections use more memory, but offer more functionality than arrays for the average developer.
+
+ - Submission by Dioxin#9863
+
+Arrays are low-level data structures, while collections are high-level data structures.
+
+Although both are objects in Java, collections provide a more functional interface: you can `sort`, you can `clear()`, and you can query active elements using `size()` (which differs from array's `length`, which queries the fixed-size of the array).
+
+Some of the functions that make collections more functional than arrays are `add`, `remove`, and `contains`.
+
+<a name="week23"></a>
+### Week 22 (05.04.2021 - 11.04.2021) | What is the difference between ScheduledExecutorService and ExecutorService interface?
+
+- No answers yet -
