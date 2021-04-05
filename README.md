@@ -63,6 +63,6 @@ Some of the functions that make collections more functional than arrays are `add
 ---
 
 <a name="week23"></a>
-### Week 22 (05.04.2021 - 11.04.2021) | What is the difference between ScheduledExecutorService and ExecutorService interface?
+### Week 23 (05.04.2021 - 11.04.2021) | What is the difference between ScheduledExecutorService and ExecutorService interface?
 
 -No answers yet-
