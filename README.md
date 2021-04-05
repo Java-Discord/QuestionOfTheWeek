@@ -30,6 +30,8 @@ Multithreading allows making use of simultaneous calculations and operations. Wh
 
 Multithre_ding_ allows us to run numerous task simultaneously, which is extra useful when you need several tasks running at the same time, or when you are doing some blocking operations. However it is good to keep in mind that working with multiple threads can lead to some unexpected behavior, mainly if the threads are accessing the same resources. Multithreading is also used in brute-force algorithms to check all the cases in a shorter time, making them much more powerful.
 
+---
+
 <a name="week22"></a>
 ### Week 22 (28.03.2021 - 04.04.2021) | What are the main differences between Array and Collection?
 
@@ -57,6 +59,8 @@ Arrays are low-level data structures, while collections are high-level data stru
 Although both are objects in Java, collections provide a more functional interface: you can `sort`, you can `clear()`, and you can query active elements using `size()` (which differs from array's `length`, which queries the fixed-size of the array).
 
 Some of the functions that make collections more functional than arrays are `add`, `remove`, and `contains`.
+
+---
 
 <a name="week23"></a>
 ### Week 22 (05.04.2021 - 11.04.2021) | What is the difference between ScheduledExecutorService and ExecutorService interface?
