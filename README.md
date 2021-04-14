@@ -88,6 +88,8 @@ One is scheduled and one is not
 
 The scheduled version of the executor has a specified delay before the thread for the task is started.
 
+---
+
 <a name="week24"></a>
 ### Week 24 (11.04.2021 - 18.04.2021) | What is Encapsulation?
 
