@@ -10,6 +10,7 @@ QOTW, or Question of the week, is a weekly java-related question you can answer 
  - [Week 21 (21.03.2021 - 28.03.2021)](#week21)  
  - [Week 22 (28.03.2021 - 04.04.2021)](#week22)
  - [Week 23 (05.04.2021 - 11.04.2021)](#week23)
+ - [Week 24 (11.04.2021 - 18.04.2021)](#week24)
 
 <a name="week21"></a>
 ### Week 21 (21.03.2021 - 28.03.2021) | What are the advantages of multithreading?
@@ -65,4 +66,32 @@ Some of the functions that make collections more functional than arrays are `add
 <a name="week23"></a>
 ### Week 23 (05.04.2021 - 11.04.2021) | What is the difference between ScheduledExecutorService and ExecutorService interface?
 
--No answers yet-
+ - Submission by dan1st#7327
+
+`ExecutorService` is an interface that allows to run tasks asynchronously. The utility class `Executors` provides various methods for obtaining `ExecutorService`s.
+`ScheduledExecutorService` is another interface that extends `ExecutorService`. It does not only allow to run tasks but it allows to run tasks after a specific amount of time passes or periodically. Objects of `ScheduledExecutorService` can also be executed using `Executors`, especially using `Executors.newScheduledThreadPool()` or similar.
+
+ - Submission by Dioxin#9863
+
+*due to the immense formatting I will just put a picture here*
+![image of submission by Dioxin#9863](https://user-images.githubusercontent.com/66334318/114774615-a8462780-9d70-11eb-9b66-73d900f612ba.png)
+
+ - Submission by Ike#2932
+ 
+*this did not score a point btw*
+
+One is scheduled and one is not
+
+ - Submission by Spider EveryOS#8098
+
+*Dynxsty thought about not counting this but decided to*
+
+The scheduled version of the executor has a specified delay before the thread for the task is started.
+
+<a name="week24"></a>
+### Week 24 (11.04.2021 - 18.04.2021) | What is Encapsulation?
+
+-Submission not closed yet-
+
+
+
