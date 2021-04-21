@@ -155,4 +155,4 @@ The purpose is that it looks good you don't need to care about the class in othe
 ---
 
 <a name="week25"></a>
-### Week 25 (18.04.2021 - 25.04.2021) | What is the difference between ScheduledExecutorService and ExecutorService interface?
+### Week 25 (18.04.2021 - 25.04.2021) | What are the differences between String and StringBuffer?
