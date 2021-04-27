@@ -156,3 +156,42 @@ The purpose is that it looks good you don't need to care about the class in othe
 
 <a name="week25"></a>
 ### Week 25 (18.04.2021 - 25.04.2021) | What are the differences between String and StringBuffer?
+
+
+- **Submission by dan1st#7327**
+
+`String` is an immutable class whose objects hold texts.
+Instead of allowing modification, `Strings` have various methods for creating another, different `String`.
+
+`StringBuilder` is a class that represents mutable `Strings`. It allows to e.g. append data or remove characters. It is not thread safe.
+
+`StringBuffer` is a thread-safe variant of `StringBuilder`.
+
+All of those classes implement `CharSequence`. `CharSequence` is an interface for objects representing a sequence of characters like the name suggests. CharSequence provides primitive methods for working with sequences of characters while the concrete classes allow for much more.
+
+
+- **Submission by daysling#6969**
+
+Strings are immutable but StringBuffer are mutable.. Strings takes more memory, extends Object classes equals() where StringBuffer are fast and doesn't extend Object classes equals().
+
+
+- **Submission by Loading BG#7962**
+
+`String` is immutable - once set cannot be changed
+`StringBuffer` is mutable - you can append and delete characters
+
+
+- **Submission by Dioxin#9863**
+
+`String` is an immutable collection of letters.
+
+`StringBuffer` is a mutable synchronized collection of letters
+
+`StringBuilder` is a mutable non-synchronized collection of letters, which is preferred over `StringBuffer` to improve performance when not accessed by multiple threads
+
+---
+
+<a name="week26"></a>
+### Week 26 (26.04.2021 - 02.05.2021) | What is Context Switching?
+
+*No answers yet*
