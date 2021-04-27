@@ -12,6 +12,7 @@ QOTW, or Question of the week, is a weekly java-related question you can answer 
  - [Week 23 (05.04.2021 - 11.04.2021)](#week23)
  - [Week 24 (11.04.2021 - 18.04.2021)](#week24)
  - [Week 25 (18.04.2021 - 25.04.2021)](#week25)
+ - [Week 26 (26.04.2021 - 02.05.2021)](#week26)
 
 <a name="week21"></a>
 ### Week 21 (21.03.2021 - 28.03.2021) | What are the advantages of multithreading?
