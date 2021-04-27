@@ -171,6 +171,12 @@ Instead of allowing modification, `Strings` have various methods for creating an
 All of those classes implement `CharSequence`. `CharSequence` is an interface for objects representing a sequence of characters like the name suggests. CharSequence provides primitive methods for working with sequences of characters while the concrete classes allow for much more.
 
 
+- **Submission by Spider EveryOS#8098**
+
+A String is an immutable data type representing an immutable array of characters (in other words, "text"). It is similar to the `char*` and `char[]` constructs found in other languages, except that it is *immutable* (and cannot be changed).
+
+A StringBuffer is a lot like the StringBuilder class, which I'm sure a lot of us have used. One big difference between the two, however, is that StringBuffer is thread-safe, and also much slower. A StringBuffer is a *mutable* dataclass that allows for creating a string by invoking a series of `.append(*)` calls, and then invoking `.toString()`. The initial capacity of a StringBuffer is set via the constructor.
+
 - **Submission by daysling#6969**
 
 Strings are immutable but StringBuffer are mutable.. Strings takes more memory, extends Object classes equals() where StringBuffer are fast and doesn't extend Object classes equals().
