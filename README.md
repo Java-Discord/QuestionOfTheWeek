@@ -13,6 +13,7 @@ QOTW, or Question of the week, is a weekly java-related question you can answer 
  - [Week 24 (11.04.2021 - 18.04.2021)](#week24)
  - [Week 25 (18.04.2021 - 25.04.2021)](#week25)
  - [Week 26 (26.04.2021 - 02.05.2021)](#week26)
+ - [Week 27 (02.05.2021 - 09.05.2021)](#week27)
 
 <a name="week21"></a>
 ### Week 21 (21.03.2021 - 28.03.2021) | What are the advantages of multithreading?
@@ -200,5 +201,49 @@ Strings are immutable but StringBuffer are mutable.. Strings takes more memory, 
 
 <a name="week26"></a>
 ### Week 26 (26.04.2021 - 02.05.2021) | What is Context Switching?
+
+- **Submission by dan1st#7327**
+
+Context switching is when the CPU (actually a CPU core) switches from executing one thread to another. This requires to swap stacks and consumes time where the CPU (core) cannot do actual processing. When using a lot of threads and/or make threads block often, context switches are introduced which may harm performance. Threads could block because of I/O, timed waits or locking. In the case of locking, it could be avoided by using nonblocking algorithms or busy waiting (actually done by `synchronized` if the JIT thinks it is more efficient).
+Project Loom aims to reduce the impact of context switching using fibers but this is still in development.
+As with all performance topics:
+> Premature optimization is the root of all evil
+> 
+Do not try to optimize everything. Mease where performance problems are, fix those and measure the change your fix made.
+
+- **Submission by Dioxin#9863**
+
+**Context Switching**
+Allows a single CPU core to run multiple tasks by quickly switching between tasks.
+
+A task is paused/suspended. The state of the task is stored to be resumed later. The CPU is then free to process another task. Eventually, the task suspends, and a previous task resumes.
+
+When and how this occurs depends on the type of multit-tasking implemented.
+
+**Cooperative Multitasking**
+Tasks are in control of when tasks (themselves) suspend. A scheduler launches the program, then waits for the program to return control back to the scheduler.
+
+Lightweight scheduler, used in embedded systems. However, it's possible for a single poorly written task to hog the CPU, causing the system to hang.
+
+**Preemptive Multitasking**
+A scheduler is in control of when tasks suspend. An interrupt system determines when to suspend a task. Tasks are suspended once they've exceeded the time slice assigned to them.
+
+Heavier scheduler, used in modern desktop operating systems. Time slices ensure every tasks gets time to be processed.
+
+- **Submission by Spider EveryOS#8098**
+
+Context Switching is the OS's process of switching from one thread to another. When working within a single core, rarely can 2 threads truly run simultaneously. Instead, the OS must unload the execution data for one program and load the execution data for the other.
+This is quite a bit lower level than Java, so I may be wrong, but if I understand correctly:
+* Registers are backed up into memory for the current context
+* Registers are loaded from memory for the new context. This includes things like (in general) EAX, EBX, ECX, EDX, (for the stack) EBP, ESP, and other registers I'm not aware of because I don't work this low level (I use Java ™️)
+* After this, the EIP register needs set to the correct address to execute the code for the new context. You can't directly change the value stored by EIP, but my best guess on how this is done is via a well-place JMP instruction.
+I am not sure how the processor forces a thread to yield control to the OS (to do this switching), but my best guess is that it would be via some sort of hardware interrupt on a repeating timer or something, which would give the OS control even if the thread was still running a task.
+
+I could be totally off as, once again, I don't work at this level.
+
+---
+
+<a name="week27"></a>
+### Week 27 (03.05.2021 - 09.05.2021) | What is Context Switching?
 
 *No answers yet*
