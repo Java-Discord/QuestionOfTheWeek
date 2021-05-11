@@ -14,6 +14,7 @@ QOTW, or Question of the week, is a weekly java-related question you can answer 
  - [Week 25 (18.04.2021 - 25.04.2021)](#week25)
  - [Week 26 (26.04.2021 - 02.05.2021)](#week26)
  - [Week 27 (02.05.2021 - 09.05.2021)](#week27)
+ - [Week 28 (09.05.2021 - 16.05.2021)](#week28)
 
 <a name="week21"></a>
 ### Week 21 (21.03.2021 - 28.03.2021) | What are the advantages of multithreading?
@@ -246,4 +247,40 @@ I could be totally off as, once again, I don't work at this level.
 <a name="week27"></a>
 ### Week 27 (03.05.2021 - 09.05.2021) | What is Context Switching?
 
-*No answers yet*
+- **Submission by dan1st#7327**
+*picture to keep formatting without interfering with markdown formatting*
+
+![image](https://user-images.githubusercontent.com/66334318/117809674-be0b1780-b25e-11eb-968a-404c5dd7ea4f.png)
+
+
+- **Submission by Spider EveryOS#8098**
+
+JDK - The Java development environment contains tools essential to developing java applications. For example, it includes tools for compiling Java and generating JavaDocs. It also includes the JRE as an added touch.
+JVM - The Java Virtual Machine allows for running Java bytecode. It is needed as a layer in between the machine and the code, since most physical machines cannot directly Java bytecode.
+JRE - The Java Runtime Environment is what "normal" Java users install. It includes everything needed for a user to run a Java program, such as the files for the JVM, the Java package containing the default runtime libraries, any native files that are accessed from the default runtime libraries, and the default network security certificates.
+
+- **Submission by The Next Guy ⬛🟧#7606**
+
+The JVM, is the Java Virtual Machine. It processes byte codes into Machine Language of the architecture it's installed on and also manages garbage collection. The JRE is the Java Runtime Environment. It contains the JVM built for the architecture it's installed on. It allows running of java programs but not compilation. The JDK is the Java Development Kit. Like the JRE, it contains the JVM, but it also comes with compiler tools to create java and jni programs.
+
+- **Submission by AttilaTheHun#9489**
+
+Right, so JDK (Java Development Kit) is a set of tools and libraries you need to create and run Java programs, it contains stuff like compiler and jar builder, but also comes with JRE
+JRE (Java Runtime Environment) is what actually runs the Java programs, it provides libraries and resources your program may need to work and also creates the JVM
+JVM (Java Virtual Machine) is the byte-code executor, for computers are usually used to their kind of machine code and do not understand Java byte-code natively
+
+- **Submission by Secret Agent X#0172**
+  *obviously didn't score a point*
+
+i have no idea
+
+- **Submission by redmagic#5089**
+
+JDK is java development kit has the libraries and tools you could call it the compiler for java, JRM is java runtime environment providing class libraries, and JVM is java virtual machine for running the language on any operating system
+
+---
+
+<a name="week28"></a>
+### Week 28 (09.05.2021 - 16.05.2021) | What is Context Switching?
+
+*no answers yet*
