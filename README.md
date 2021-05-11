@@ -245,7 +245,7 @@ I could be totally off as, once again, I don't work at this level.
 ---
 
 <a name="week27"></a>
-### Week 27 (03.05.2021 - 09.05.2021) | What is Context Switching?
+### Week 27 (03.05.2021 - 09.05.2021) | What is the difference between JDK, JRE and JVM?
 
 - **Submission by dan1st#7327**
 *picture to keep formatting without interfering with markdown formatting*
@@ -281,6 +281,6 @@ JDK is java development kit has the libraries and tools you could call it the co
 ---
 
 <a name="week28"></a>
-### Week 28 (09.05.2021 - 16.05.2021) | What is Context Switching?
+### Week 28 (09.05.2021 - 16.05.2021) | What are the main uses of the super keyword?
 
 *no answers yet*
