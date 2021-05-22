@@ -15,6 +15,7 @@ QOTW, or Question of the week, is a weekly java-related question you can answer 
  - [Week 26 (26.04.2021 - 02.05.2021)](#week26)
  - [Week 27 (02.05.2021 - 09.05.2021)](#week27)
  - [Week 28 (09.05.2021 - 16.05.2021)](#week28)
+ - [Week 29 (16.05.2021 - 23.05.2021)](#week29)
 
 <a name="week21"></a>
 ### Week 21 (21.03.2021 - 28.03.2021) | What are the advantages of multithreading?
@@ -282,5 +283,42 @@ JDK is java development kit has the libraries and tools you could call it the co
 
 <a name="week28"></a>
 ### Week 28 (09.05.2021 - 16.05.2021) | What are the main uses of the super keyword?
+
+- **Submission by Spider EveryOS#8098**
+
+The `super` keyword allows for calling methods and constructors that have been overriden.
+In a constructor, you can make a call to the any of the parent constructors, but it must be the first call of the constructor.
+Additionally, you can make super calls to any of the superclass's methods via a super.methodCall(...), as long as you are currently in a non-static method or constructor.
+
+- **Submission by  AttilaTheHun#9489**
+
+The `super` keyword is used to access the superclass of the current class, for example if you would extend JFrame, you would need to call `super("Super Cool Window Title")` which calls the constructor of the super class JFrame. In android, your activity class usually extends Activity or AppCompatActivity or some other activity and in your `onCreate()` you need to call `super.onCreate()`.
+
+Summary: `super` stand for superclass (the extended class) and allows you to access it
+
+- **Submission by dan1st#7327** *image because of the formatting*
+
+![image](https://user-images.githubusercontent.com/66334318/119236771-898a3c00-bb39-11eb-8fab-f685e0f5cd4c.png)
+
+- **Submission by MeeseeksDev#7622**
+
+The super word is used when referring to a parent class instanse
+
+- **Submission by Therapy FC#1238**
+
+Hello, so basically u use "super" when u wanna call the parent object of the one your working with , aka to access "superclass" Contrucctor
+
+- **Submission by M1nordragon#9286**
+
+The main use of the super keyword is running the contructor of an extended class.
+
+- **Submission by daysling#6969**
+
+super keyboard is a keyword in java which helps to inheriate properties/methods/working methods of superclass to the child class.
+
+---
+
+<a name="week29"></a>
+### Week 29 (16.05.2021 - 23.05.2021) | What is the `Final` variable?
 
 *no answers yet*
