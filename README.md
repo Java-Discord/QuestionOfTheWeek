@@ -16,6 +16,7 @@ QOTW, or Question of the week, is a weekly java-related question you can answer 
  - [Week 27 (02.05.2021 - 09.05.2021)](#week27)
  - [Week 28 (09.05.2021 - 16.05.2021)](#week28)
  - [Week 29 (16.05.2021 - 23.05.2021)](#week29)
+ - [Week 30 (23.05.2021 - 30.05.2021)](#week30)
 
 <a name="week21"></a>
 ### Week 21 (21.03.2021 - 28.03.2021) | What are the advantages of multithreading?
@@ -320,5 +321,50 @@ super keyboard is a keyword in java which helps to inheriate properties/methods/
 
 <a name="week29"></a>
 ### Week 29 (16.05.2021 - 23.05.2021) | What is the `Final` variable?
+
+- **Submission by nyarian#7075**
+it's a variable the value of which can't be changed after initialization
+
+- **Submission by AttilaTheHun#9489**
+Final variable is a variable that can not be reassigned, usually defining constants instead of the mythic `const` keyword.
+
+Methods can be final, too, meaning they can not be overridden.
+
+Be sure to use the `final` keyword closest with the variable name, such as `public static final int X...` so it sounds the cool Java way 😎
+
+- **Submission by dan1st#7327**
+The keyword `final` makes sure that a variable cannot be changed.
+For objects, it only makes sure that the reference to the variable cannot be changed. In contrast to `const` in some other programming languages, `final` does not make objects immutable.
+As `final` variables cannot change, they must be assigned before they are first accessed. This can happen with the declaration (for all variables), in a `static` block (for static variables), in a constructor or non-static initializer (for instance variables) or in all code branches between creation and first access of a local variable.
+```java
+final int i=0;
+final List<String>list=new ArrayList<>();
+//final int a;//compiler error (not initialized)
+//i=1337;//compiler error
+//i++;//compiler error
+//list=new LinkedList<>()//compiler error
+list.add("Hello");//allowed, does not modify the reference
+```
+
+*^ Comment by dynxsty:* 
+
+![image](https://user-images.githubusercontent.com/66334318/119645167-06f5cb00-be1e-11eb-985d-470b160d0651.png)
+
+
+- **Submission by daysling#6969**
+Final keyword us a keyword in java that declare a variable/class as constant, final variables/classes can't be modified.
+
+- **Submission by Spider EveryOS#8098**
+When used on a variable, `final` just means that the reference is immutable (the reference cannot be changed). `final` variables and "effectively final" variables play nice with lambdas, whereas normal variables do not.
+When used on a class, `final` means that the class may not be extended,
+When used on a method, `final` means that said method cannot be overridden.
+
+- **Submission by Cirax856#4026**
+Final variable is a variable, that is in it's final state. It's value cannot be change by anything anywhere.
+
+---
+
+<a name="week30"></a>
+### Week 30 (23.05.2021 - 30.05.2021) | What is the difference between `Compile-Time Polymorphism` and `Runtime Polymorphism`?
 
 *no answers yet*
