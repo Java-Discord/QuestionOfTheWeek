@@ -1,5 +1,7 @@
 
 # Question-of-the-Week (ARCHIVED)
+→ moved to https://pages.javadiscord.net/qotw
+
 Questions and answers of all QOTW starting 28.03.2021 - This includes all answers, including wrong ones
 
 ## What is QOTW?
