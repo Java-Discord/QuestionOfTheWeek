@@ -1,5 +1,5 @@
 
-# Question-of-the-Week
+# Question-of-the-Week (ARCHIVED)
 Questions and answers of all QOTW starting 28.03.2021 - This includes all answers, including wrong ones
 
 ## What is QOTW?
